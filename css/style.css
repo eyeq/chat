@@ -1,0 +1,70 @@
+button {
+  color: #160B64;
+}
+
+q {
+  font-family: "游明朝体", "Yu Mincho";
+}
+
+.balloon {
+  clear: left;
+  position: relative;
+  border: 0px solid #777;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px;
+  width: 640px;
+}
+
+.balloon.left {
+  background: #BDE2F4;
+  float: left;
+}
+
+.balloon.right {
+  background: #DBEDF7;
+  float: right;
+}
+
+.system {
+  font-family: monospace, serif;
+  font-size: larger;
+}
+
+.sender {
+  clear: both;
+  color: #00AFF0;
+  margin: 10px 0 0;
+  padding-left: 20px;
+  float: left;
+}
+
+.sender.me {
+  padding: 0 100px 0 0;
+  float: right;
+}
+
+.timestamp {
+  clear: both;
+  color: #808080;
+  font-size: small;
+  margin: 10px;
+  width: 60px;
+  float: right;
+}
+
+.theme {
+  text-align: left;
+  color: #160B64;
+}
+
+.item th {
+  text-align: left;
+  width: 250px;
+  border-bottom: 1px #026890 solid;
+}
+
+.item td {
+  width: 600px;
+  border-bottom: 1px #026890 solid;
+}
